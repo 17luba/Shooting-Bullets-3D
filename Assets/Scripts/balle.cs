@@ -1,12 +1,12 @@
 using UnityEngine;
 
-public class Bullet : MonoBehaviour
+public class balle : MonoBehaviour
 {
-    public float life = 3f;
+    public float vie = 3;
 
     void Awake()
     {
-        Destroy(gameObject, life);
+        Destroy(gameObject, vie);
     }
 
     void OnCollisionEnter(Collision collision)
